@@ -1,11 +1,13 @@
 body {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
     height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
 }
+
+/* CSS for first section of the page */
 .hero {
     display: flex;
     flex-direction: column;
@@ -18,6 +20,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    flex: 1;
 }
 .header-logo {
     color: #F9FAF8;
@@ -62,11 +65,53 @@ button {
     height: 250px;
     width: 500px;
 }
-.content-wrapper {
-    display: flex;
-}
 .hero-content {
     display: flex;
     flex-direction: column;
+}
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
+.content-wrapper .flipped {
+    flex-direction: row-reverse;
+}
+.content-wrapper .hero-content {
+    flex: 1;
+    padding: 10px;
+}
+/* End of css of first section of the page. */
+
+/* Start of CSS of second section of the page */
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 48px;
+    margin: 0;
+}
+.information-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 52px;
+    padding: 48px;
+}
+.info-basic > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+.info-basic {
+    max-width: 200px;
+}
+.information-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+/* End of CSS of second section of the page */
