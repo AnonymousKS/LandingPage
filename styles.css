@@ -54,12 +54,13 @@ ul {
 }
 button {
     text-align: center;
-    width: 100px;
-    height: 50px;
+    width: 98px;
+    height: 42px;
     border: none;
     border-radius: 8px;
     padding: 8px 12px;
     background-color: #3882f6;
+    color: #E5E7EB;
 }
 .hero-placeholder-image > img {
     height: 250px;
@@ -145,3 +146,49 @@ button {
 }
 
 /* End of CSS of third section */
+
+/* Start of CSS of fourth section */
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 98px;
+    margin: 0;
+    color: #E5E7EB;
+}
+.action-wrapper{
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 22px 48px;
+    border-radius: 15px;
+}
+.action-button {
+    border: 2px solid #E5E7EB;
+}
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.action-main-text {
+    font-weight: bolder;
+}
+/* End of CSS of fourth section */
+
+/* Start of CSS of footer */
+
+footer {
+    margin: 0;
+    padding: 32px;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 12px;
+    background-color: #1f2937;
+}
+
+/* End of CSS of footer */
