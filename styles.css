@@ -115,3 +115,33 @@ button {
     color: #1f2937;
 }
 /* End of CSS of second section of the page */
+
+
+/* Start of CSS of third section of the page */
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 52px 208px;
+    margin: 0;
+    background-color: #E5E7EB;
+}
+.quote-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 48px;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-signature {
+    font-weight: bold;
+}
+
+/* End of CSS of third section */
